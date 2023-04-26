@@ -16,7 +16,7 @@
 "use strict"
 var known_srcs = [];
 var zoom_level = "2x";
-var my_target_url = "https://schizo.life/hot_links"
+var my_target_url = "https://schizo.life/hot_schlinks"
 
 
 setInterval(()=>{
@@ -35,7 +35,7 @@ setInterval(()=>{
 		if(known_srcs.indexOf(img)==-1){
 			known_srcs.push(img);
 			console.log(img);
-			sendToDest(img);
+			//sendToDest(img);
 		}
 
 	}
