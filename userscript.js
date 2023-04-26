@@ -11,7 +11,7 @@ var zoom_level = "2x";
 var my_target_url = "https://schizo.life/hot_links"
 
 
-setInterval(function(){
+setInterval(()=>{
 
 	let imgs = document.getElementsByTagName("img")
 	for(let i=0; i<imgs.length; i++){
